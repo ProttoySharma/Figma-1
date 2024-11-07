@@ -1,0 +1,799 @@
+:root {
+    --primary-color: #6A4DF4;
+    --white: white;
+    --main-font: "Inter", sans-serif;
+    --headingcolor: #151515;
+    --headingfontsize: 50px;
+    --detailcoclor: #737373;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .navbar {
+        top: 10px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+
+    .navbar-toggler {
+        border: 1px solid var(--primary-color);
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: var(--primary-color);
+
+    }
+
+    .navbar-collapse {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.11);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.4px);
+        -webkit-backdrop-filter: blur(3.4px);
+        border: 1px solid rgba(255, 255, 255, 0.23);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .mx-auto {
+        text-align: right;
+    }
+
+    .navbar-nav {
+        row-gap: 10px;
+    }
+
+
+    .custombtn {
+        padding: 4px 0;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .navbar-collapse .custombtn {
+        margin-top: 10px;
+    }
+
+    /* ===================================== */
+    #banner .bannerslider .slide {
+        padding: 80px 0 70px;
+        z-index: 1;
+    }
+
+
+    #banner .bannerslider .slide h1 {
+        font-size: 26px;
+        padding: 0 30px;
+    }
+
+    #banner .bannerslider .slide p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 18px auto 20px;
+        padding: 0 20px;
+    }
+
+    #banner .bannerslider ul {
+        bottom: 25px;
+        column-gap: 5px;
+    }
+
+    #banner .bannerslider ul li button {
+        width: 15px;
+        height: 15px;
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+    }
+
+    #banner .custombtn {
+        padding: 4px 15px;
+        width: auto;
+    }
+
+    /* =========================================== */
+    #success_part {
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+
+    #success_part .container {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #success_part .container p {
+        font-size: 17px;
+        line-height: 100%;
+    }
+
+    #success_part .container h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .headerTitle {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #success_part .container span {
+        font-size: 10px;
+        line-height: 103%;
+        margin-top: 10px;
+    }
+
+    /* ======================================== */
+
+
+    #service_part {
+        padding-top: 30px;
+    }
+
+    #service_part .container {
+        padding: 0 10px;
+    }
+
+    .title p {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    #service_part .main {
+        padding: 30px 22px 25px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #service_part img {
+        width: 60px;
+    }
+
+    #service_part .main h3 {
+        font-size: 20px;
+        margin: 20px 0 10px;
+    }
+
+    #service_part .main p {
+        font-size: 10px;
+        line-height: 15px;
+        max-width: 525px;
+    }
+
+    /* ============================== */
+
+    #work .container {
+        padding: 0 10px;
+    }
+
+    #work {
+        padding-top: 20px;
+        background: #F3F3F3;
+    }
+
+    #work .main {
+        border-radius: 10px;
+    }
+
+    #work .row {
+        margin-top: 30px;
+    }
+
+    #work .main img {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    #work .main h3 {
+        font-size: 18px;
+        margin: 18px 0 15px;
+    }
+
+    .details {
+        font-size: 12px;
+        line-height: 17px;
+        padding-bottom: 30px;
+    }
+
+    /* ===================================== */
+    #agence_part {
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+
+    #agence_part .container {
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    #agence_part .main:first-child {
+        margin-bottom: 30px;
+    }
+
+    #agence_part .main {
+        margin-bottom: 30px;
+    }
+
+    #agence_part .main img {
+        width: 40px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #agence_part .main p {
+        max-width: 525px;
+    }
+
+    #agence_part .main h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #agence_part .details {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #agence_part .team {
+        height: 230px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    /* ========================== */
+
+    #clientReview .reviewSlider .slide {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .slick-slide img {
+        height: 50px;
+    }
+    #clientReview .reviewSlider .slide p {
+        font-size: 10px;
+    }
+    #clientReview .reviewSlider .slide .icon {
+        margin: 12px 0 15px;
+        column-gap: 5px;
+        font-size: 15px;
+    }
+    #clientReview .reviewSlider .slide .client img {
+        width: 30px;
+        height: 30px;
+    }
+    #clientReview .reviewSlider .slide .client h3 {
+        font-size: 20px;
+    }
+    #clientReview .reviewSlider .slide .client span {
+        font-size: 15px;
+    }
+    #clientReview .reviewSlider .prev {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+    #clientReview .reviewSlider .next {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+
+    /* ========================== */
+    #clientReview .container {
+        padding: 0 10px;
+    }
+
+    #clientReview .title h2 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #clientReview .title p {
+        margin-bottom: 40px;
+    }
+
+    /* ========================================== */
+    #form_part .container {
+        padding: 0 10px;
+    }
+
+    #form_part {
+        padding: 20px 0 20px;
+        margin: 60px 0 10px;
+    }
+
+    #form_part .headerTitle {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #form_part form {
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    #form_part form {
+        padding: 20px 22px 25px;
+        border-radius: 10px;
+    }
+
+    #form_part form h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #form_part form label {
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+
+    #form_part form input {
+        padding: 5px 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #form_part .custombtn {
+        margin-top: 10px;
+    }
+
+    /* ================================ */
+    #footer .container {
+        padding: 0 10px;
+    }
+
+    #footer img {
+        height: 30px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #footer .container .row .main p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+        text-align: center;
+        max-width: 555px;
+    }
+
+    #footer .container .row .main2 ul li h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #footer .container .row .main2 ul li a {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #footer .main2 {
+        text-align: center;
+    }
+
+    #wm .container {
+        padding: 0 10px;
+    }
+
+    #wm .container img {
+        margin-top: 20px;
+    }
+
+    #wm .container p {
+        margin: 20px 0;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar {
+        top: 10px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+
+    .navbar-toggler {
+        border: 1px solid var(--primary-color);
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler i {
+        color: var(--primary-color);
+
+    }
+
+    .navbar-collapse {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.11);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.4px);
+        -webkit-backdrop-filter: blur(3.4px);
+        border: 1px solid rgba(255, 255, 255, 0.23);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .mx-auto {
+        text-align: right;
+    }
+
+    .navbar-nav {
+        row-gap: 10px;
+    }
+
+
+    .custombtn {
+        padding: 4px 0;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .navbar-collapse .custombtn {
+        margin-top: 10px;
+    }
+
+    /* ===================================== */
+    #banner .bannerslider .slide {
+        padding: 80px 0 70px;
+        z-index: 1;
+    }
+
+
+    #banner .bannerslider .slide h1 {
+        font-size: 43px;
+        padding: 0 30px;
+    }
+
+    #banner .bannerslider .slide p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 18px auto 20px;
+        padding: 0 20px;
+    }
+
+    #banner .bannerslider ul {
+        bottom: 25px;
+        column-gap: 5px;
+    }
+
+    #banner .bannerslider ul li button {
+        width: 15px;
+        height: 15px;
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+    }
+
+    #banner .custombtn {
+        padding: 4px 15px;
+        width: auto;
+    }
+
+    /* =========================================== */
+    #success_part {
+        margin-top: 50px;
+        padding: 0 10px;
+    }
+
+    #success_part .container {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #success_part .container p {
+        font-size: 17px;
+        line-height: 100%;
+    }
+
+    #success_part .container h3 {
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .headerTitle {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #success_part .container span {
+        font-size: 10px;
+        line-height: 103%;
+        margin-top: 10px;
+    }
+
+    /* ======================================== */
+
+
+    #service_part {
+        padding-top: 30px;
+    }
+
+    #service_part .container {
+        padding: 0 10px;
+    }
+
+    .title p {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    #service_part .main {
+        padding: 30px 22px 25px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #service_part img {
+        width: 60px;
+    }
+
+    #service_part .main h3 {
+        font-size: 20px;
+        margin: 20px 0 10px;
+    }
+
+    #service_part .main p {
+        font-size: 10px;
+        line-height: 15px;
+        max-width: 525px;
+    }
+
+    /* ============================== */
+
+    #work .container {
+        padding: 0 10px;
+    }
+
+    #work {
+        padding-top: 20px;
+        background: #F3F3F3;
+    }
+
+    #work .main {
+        border-radius: 10px;
+    }
+
+    #work .row {
+        margin-top: 30px;
+    }
+
+    #work .main img {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    #work .main h3 {
+        font-size: 18px;
+        margin: 18px 0 15px;
+    }
+
+    .details {
+        font-size: 12px;
+        line-height: 17px;
+        padding-bottom: 30px;
+    }
+
+    /* ===================================== */
+    #agence_part {
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+
+    #agence_part .container {
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    #agence_part .main:first-child {
+        margin-bottom: 30px;
+    }
+
+    #agence_part .main {
+        margin-bottom: 30px;
+    }
+
+    #agence_part .main img {
+        width: 40px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #agence_part .main p {
+        max-width: 525px;
+    }
+
+    #agence_part .main h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #agence_part .details {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #agence_part .team {
+        height: 400px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    /* ========================== */
+
+    #clientReview .reviewSlider .slide {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .slick-slide img {
+        height: 50px;
+    }
+    #clientReview .reviewSlider .slide p {
+        font-size: 10px;
+    }
+    #clientReview .reviewSlider .slide .icon {
+        margin: 12px 0 15px;
+        column-gap: 5px;
+        font-size: 15px;
+    }
+    #clientReview .reviewSlider .slide .client img {
+        width: 30px;
+        height: 30px;
+    }
+    #clientReview .reviewSlider .slide .client h3 {
+        font-size: 20px;
+    }
+    #clientReview .reviewSlider .slide .client span {
+        font-size: 15px;
+    }
+    #clientReview .reviewSlider .prev {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+    #clientReview .reviewSlider .next {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+
+    /* ========================== */
+    #clientReview .container {
+        padding: 0 10px;
+    }
+
+    #clientReview .title h2 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #clientReview .title p {
+        margin-bottom: 40px;
+    }
+
+    /* ========================================== */
+    #form_part .container {
+        padding: 0 10px;
+    }
+
+    #form_part {
+        padding: 20px 0 20px;
+        margin: 60px 0 10px;
+    }
+
+    #form_part .headerTitle {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #form_part form {
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    #form_part form {
+        padding: 20px 22px 25px;
+        border-radius: 10px;
+    }
+
+    #form_part form h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #form_part form label {
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 10px;
+    }
+
+    #form_part form input {
+        padding: 5px 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #form_part .custombtn {
+        margin-top: 10px;
+    }
+
+    /* ================================ */
+    #footer .container {
+        padding: 0 10px;
+    }
+
+    #footer img {
+        height: 30px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #footer .container .row .main p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+        text-align: center;
+        max-width: 555px;
+    }
+
+    #footer .container .row .main2 ul li h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #footer .container .row .main2 ul li a {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #footer .main2 {
+        text-align: center;
+    }
+
+    #wm .container {
+        padding: 0 10px;
+    }
+
+    #wm .container img {
+        margin-top: 20px;
+    }
+
+    #wm .container p {
+        margin: 20px 0;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+}
